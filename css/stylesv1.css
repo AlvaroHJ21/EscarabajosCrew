@@ -1,0 +1,255 @@
+.banner {
+    background: url(../images/banner2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: calc(100vh - 7rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white
+}
+
+.banner-container {
+    width: 50%;
+    text-align: center;
+}
+
+.banner2 {
+    background: url(../images/g9.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.banner2-content {
+    width: 30%;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.banner2-content p {
+    text-align: justify;
+}
+
+section {
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.animals-grids {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 2rem;
+}
+
+.animal-description {
+    text-align: justify;
+    padding-bottom: 1rem;
+}
+
+.animal-extends {
+    padding: .5rem 2rem;
+    border-radius: 10rem;
+    background-color: #FF6800;
+    color: white
+}
+
+.cont-text h4 {
+    text-align: center;
+}
+
+.cont-text h4 a {
+    color: black;
+}
+
+.cont1 {
+    grid-column: 1/2;
+}
+
+.cont2 {
+    grid-column: 2/3;
+}
+
+.cont3 {
+    grid-column: 1/2;
+}
+
+.cont4 {
+    grid-column: 2/3;
+}
+
+
+/* .cont1 img,
+.cont2 img,
+.cont3 img,
+.cont4 img {
+    width: 70%;
+} */
+
+.cont-img {
+    text-align: center;
+}
+
+.cont-img img {
+    width: 80%;
+}
+
+.cont-text {
+    width: 70%;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutUs p {
+    text-align: justify;
+}
+
+
+/* Animal Page */
+
+
+/* Animal Page */
+
+
+/* Animal Page */
+
+
+/* Animal Page */
+
+
+/* Animal Page */
+
+.animal-search {
+    text-align: center;
+}
+
+.cont-input {
+    padding: 1rem 0;
+}
+
+.cont-input input {
+    outline: none;
+    border: none;
+    padding: .8rem 2rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.cont-animal__img img {
+    width: 25rem;
+}
+
+.cont-animal__info a {
+    color: black;
+}
+
+.cont-animal__info a:hover {
+    text-decoration: underline;
+}
+
+.data .alert-error {
+    background-color: red;
+    border-radius: 10rem;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+
+/* Animal Details */
+
+
+/* Animal Details */
+
+
+/* Animal Details */
+
+
+/* Animal Details */
+
+.section-animal h2 {
+    text-align: center;
+}
+
+.animal-detail__img {
+    text-align: center;
+}
+
+.cont-info {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgb(83, 83, 83);
+}
+
+.cont-info:last-child {
+    border: none
+}
+
+.cont-info h3 {
+    text-align: left;
+}
+
+.cont-info p {
+    text-align: justify;
+}
+
+#img-animal {
+    cursor: pointer;
+}
+
+.mostrarImagen {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.mostrarImagen__div {
+    width: 40%;
+}
+
+.mostrarImagen__div img {
+    width: 100%;
+}
+
+.btn-cerrar {
+    background-color: white;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 100%;
+}
+
+.btn-cerrar:hover {
+    cursor: pointer;
+}

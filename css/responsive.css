@@ -1,0 +1,63 @@
+@media (max-width: 800px) {
+    .header {
+        display: none;
+    }
+    .banner {
+        height: 100vh;
+    }
+    .banner-container {
+        width: 80%
+    }
+    .banner2 {
+        flex-direction: column;
+    }
+    .banner2-content {
+        width: 80%;
+        margin: 1rem 0;
+    }
+    .banner2-content:nth-child(2) {
+        display: none;
+    }
+    .banner2-content p {
+        padding: .2rem 0;
+        width: 80%;
+        text-align: justify;
+        margin: 0 auto;
+    }
+    .animals-grids {
+        display: block;
+    }
+    .animal-description {
+        display: none;
+    }
+    .cont1,
+    .cont2,
+    .cont3,
+    .cont4 {
+        display: block;
+    }
+    .cont-text h4 {
+        text-align: center;
+    }
+    .section-container {
+        display: block
+    }
+    .section-container div:nth-child(1),
+    .section-container div:nth-child(2),
+    .section-container div:nth-child(3) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .social ul li,
+    .details ul li {
+        padding: .5rem 0;
+    }
+    .cont-info {
+        width: 90%
+    }
+    .mostrarImagen__div {
+        width: 70%;
+    }
+}

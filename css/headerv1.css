@@ -1,0 +1,54 @@
+:root {
+    --bg-header: #FF6800;
+    --color: white;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-responsive {
+    display: none;
+}
+
+header {
+    background-color: var(--bg-header);
+}
+
+.header {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    height: 7rem;
+}
+
+.header__ul {
+    gap: 1rem;
+    height: 100%;
+}
+
+.header__ul li a,
+.header__logo {
+    color: var(--color);
+}
+
+.active {
+    background-color: var(--color);
+}
+
+.active a {
+    color: var(--bg-header) !important;
+}
+
+.header__ul li a {
+    padding: 0 1rem;
+}
+
+.header__ul li {
+    display: inline-block;
+    height: 100%;
+    line-height: 7rem;
+}
